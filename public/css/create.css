@@ -1,0 +1,45 @@
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.planet-form {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.planet-form label {
+    margin-top: 10px;
+    display: block;
+}
+
+.planet-form input,
+.planet-form select,
+.planet-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.planet-form button {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.planet-form button:hover {
+    background-color: #45a049;
+}

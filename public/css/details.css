@@ -1,0 +1,77 @@
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.planet-details {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.planet-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.planet-info {
+    width: 100%;
+    text-align: left;
+}
+
+.planet-info p,
+.planet-info h2 {
+    margin: 10px 0;
+}
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.edit-btn, .delete-btn, .like-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.like-btn {
+    background-color: #4caf50;
+    color: white;
+}
+
+.like-btn:disabled {
+    background-color: #555;
+}
+
+.edit-btn {
+    background-color: #2196f3;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.edit-btn, .delete-btn, .like-btn:hover {
+    opacity: 0.9;
+}
+
+.liked-message {
+    margin-top: 20px;
+    color: #ffb74d;
+    font-weight: bold;
+}

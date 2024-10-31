@@ -1,0 +1,95 @@
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-form-container {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.search-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.search-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.search-form button:hover {
+    opacity: 0.9;
+}
+
+.search-results {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.planet-result {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #202340;
+    border-radius: 8px;
+}
+
+.planet-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.planet-info {
+    flex: 1;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.no-matches {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    border-top: 1px solid #2c3e50;
+}
+
+.planet-info p {
+    margin-bottom: 15px;
+}
